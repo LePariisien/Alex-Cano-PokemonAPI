@@ -28,7 +28,7 @@ const PokemonList = () => {
         {filteredPokemon.map((pokemon) => (
           <PokemonCard key={pokemon.name} url={pokemon.url} />
         ))}
-      </div>q
+      </div>
   );
 };
 
